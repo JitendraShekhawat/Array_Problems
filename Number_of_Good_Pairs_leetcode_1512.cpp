@@ -1,7 +1,9 @@
 //Problem link 
 //https://leetcode.com/problems/number-of-good-pairs/
 
-//mehotd 1
+#include<bits/stdc++.h>
+using namespace std;
+
 class Solution {
 public:
     int numIdenticalPairs(vector<int>& nums) {
