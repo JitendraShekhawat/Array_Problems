@@ -1,6 +1,8 @@
 //Problem link 
 //https://leetcode.com/problems/number-of-good-pairs/
 
+
+
 #include<bits/stdc++.h>
 using namespace std;
 
