@@ -4,7 +4,25 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-//Method 1
+
+//method 3
+//faster ten 73%
+
+class Solution {
+public:
+    vector<int> decompressRLElist(vector<int>& nums) {
+        vector<int> res;
+        
+        for(int i = 0;i<nums.size(); i =i+2){
+            
+            res.insert(res.end(), nums[i], nums[i+1]);
+        }
+        return res;
+    }
+};
+
+
+//Method 2
 //faster then 73%
 class Solution {
 public:
@@ -26,7 +44,7 @@ public:
     }
 };
 
-//method 2
+//method 3
 //fater then 10 %
 class Solution {
 public:
